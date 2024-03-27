@@ -195,6 +195,32 @@ PointPainting: Sequential Fusion for 3D Object Detection
 
  [\[Paper\]](https://arxiv.org/pdf/1911.10150v2.pdf) [\[Code\]](https://github.com/rshilliday/painting) [\[My Blog\]](https://blog.csdn.net/taifengzikai/article/details/106520603)
 
+ LiDAR-based Online 3D Video Object Detection with Graph-based Message Passing and Spatiotemporal Transformer Attention
+ [\[Code\]](https://github.com/yinjunbo/3DVID)
+
+# 4D Semantic Segmentation
+
+4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks
+[\[Code\]](https://github.com/StanfordVL/MinkowskiEngine))
+
+LiDAR-based Recurrent 3D Semantic Segmentation with Temporal Memory Alignment
+
+SpSequenceNet: Semantic Segmentation Network on 4D Point Clouds
+[\[Code\]](https://github.com/dante0shy/SpSequenceNet)
+
+Dynamic Semantic Occupancy Mapping using 3D Scene Flow and Closed-Form Bayesian Inference
+
+Spatial-Temporal Transformer for 3D Point Cloud Sequences
+
+Point 4D Transformer Networks for Spatio-Temporal Modeling in Point Cloud Videos
+[\[Code\]](https://github.com/hehefan/P4Transformer)
+
+TempNet: Online Semantic Segmentation on Large-scale Point Cloud Series
+
+PSTNET: POINT SPATIO-TEMPORAL CONVOLUTION ON POINT CLOUD SEQUENCES
+[\[Code\]](https://github.com/hehefan/Point-Spatio-Temporal-Convolution)
+
+
 # Moving Point Cloud Processing
 PointRNN: Point Recurrent Neural Network for Moving Point Cloud Processing
 
