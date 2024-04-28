@@ -2,7 +2,8 @@
 
 This summary includes traditional algorithms and deep learning methods, which refers to [paper with code](https://paperswithcode.com/), [shenlanxueyuan](https://www.shenlanxueyuan.com/my/course/204), and [My blog](https://blog.csdn.net/taifengzikai) (in Chinese). 
 
-I participated in the LIDAR object detection track of [DEECAMP 2020](https://deecamp.com/2020/). The added information refers to the baseline of this competition track.
+<!-- I participated in the LIDAR object detection track of [DEECAMP 2020](https://deecamp.com/2020/). The added information refers to the baseline of this competition track.
+ -->
 
 # Lidar and point cloud
 
@@ -25,6 +26,10 @@ For the principle of lidar, you can refer to the following articles:
   3Million+ models and 4K+ categories. A dataset that is large in scale, well organized and richly annotated. 
   ShapeNetCore [[Link\]](http://shapenet.cs.stanford.edu/shrec16/): 51300 models for 55 categories.
 
+- **ScanObjectNN (2019)** [[Link\]](https://github.com/hkust-vgd/scanobjectnn) is built upon SceneNN and ScanNet, contains 
+  15,000 objects from 15 different classes, and presents significant challenges. 
+
+
 - **NYU Depth Dataset V2 (2012)** [[Link\]](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) 
   1449 densely labeled pairs of aligned RGB and depth images from Kinect video sequences for a variety of indoor scenes.
 
@@ -39,11 +44,11 @@ For the principle of lidar, you can refer to the following articles:
   House3D is a virtual 3D environment which consists of 45K indoor scenes equipped with a diverse set of scene types, layouts and objects sourced from the SUNCG dataset. All 3D objects are fully annotated with category labels. Agents in the environment have access to observations of multiple modalities, including RGB images, depth, segmentation masks and top-down 2D map views.
 
 - **KITTI Benckmark**
-    [paper link](http://www.cvlibs.net/publications/Geiger2013IJRR.pdf)
+    [[Link\]](http://www.cvlibs.net/publications/Geiger2013IJRR.pdf)
     The [KITTI](http://www.cvlibs.net/datasets/kitti/) (**K**arlsruhe **I**nstitute of **T**echnology and **T**oyota Technological **I**nstitute) dataset is a widely used computer vision benchmark which was released in 2012. A Volkswagen station was fitted with grayscale and color cameras, a Velodyne 3D Laser Scanner and a GPS/IMU system. They have datasets for various scenarios like urban, [residential](http://www.cvlibs.net/datasets/kitti/raw_data.php?type=residential), [highway](http://www.cvlibs.net/datasets/kitti/raw_data.php?type=road), and [campus](http://www.cvlibs.net/datasets/kitti/raw_data.php?type=campus). 
 
 - **nuScenes Benckmark**
-    [paper link](https://arxiv.org/abs/1903.11027v1)
+    [[Link\]](https://arxiv.org/abs/1903.11027v1)
     nuTonomy scenes (nuScenes) is the first dataset to carry the full autonomous vehicle sensor suite: 6 cameras, 5 radars and 1 lidar, all with full 360 degree field ofview. nuScenes comprises 1000 scenes, each 20s long and fully annotated with 3D bound- ing boxes for 23 classes and 8 attributes. It has 7x as many annotations and 100x as many images as the pioneering KITTI dataset.
 
 # Tradition algorithms
@@ -97,7 +102,7 @@ Registration
 
 
 
-# Review article
+# Deep Learning Methods
 Deep Learning for 3D Point Clouds: A Survey
 
  [\[Paper\]](https://arxiv.org/abs/1912.12033) [\[Code\]](https://github.com/QingyongHu/SoTA-Point-Cloud) [\[My Blog1\]](https://blog.csdn.net/taifengzikai/article/details/104109562) [\[My Blog2\]](https://blog.csdn.net/taifengzikai/article/details/104153717)
@@ -110,7 +115,7 @@ A Review on Object Pose Recovery: from 3D Bounding Box Detectors to Full 6D Pose
 
  [\[Paper\]](https://arxiv.org/abs/2001.10609v1)
 
-# 3D Point Cloud Classification and Segmentation
+# 3D Object Classification
 PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
 
  [\[Paper\]](https://arxiv.org/pdf/1612.00593v2.pdf) [\[Code\]](https://github.com/charlesq34/pointnet) [\[My Blog\]](https://blog.csdn.net/taifengzikai/article/details/104438739)
@@ -125,7 +130,134 @@ PointConv: Deep Convolutional Networks on 3D Point Clouds
 
 PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation
 
- [\[Paper\]](http://arxiv.org/abs/1807.00652)
+ [\[Paper\]](http://arxiv.org/abs/1807.00652) [\[Code\]](https://github.com/MVIG-SJTU/pointSIFT)
+
+Dynamic Graph CNN for Learning on Point Clouds
+
+[\[Paper\]](https://arxiv.org/abs/1801.07829) [\[Code\]](https://github.com/WangYueFt/dgcnn)
+
+Mining Point Cloud Local Structures by Kernel Correlation and Graph Pooling
+
+[\[Paper\]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Shen_Mining_Point_Cloud_CVPR_2018_paper.pdf) [\[Code\]](http://www.merl.com/research/license#KCNet)
+
+PointCNN: Convolution On X-Transformed Points
+
+[\[Paper\]](https://papers.nips.cc/paper_files/paper/2018/hash/f5f8590cd58a54e94377e6ae2eded4d9-Abstract.html) [\[Code\]](https://github.com/yangyanli/PointCNN)
+
+Relation-Shape Convolutional Neural Network for Point Cloud Analysis
+
+[\[Paper\]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Relation-Shape_Convolutional_Neural_Network_for_Point_Cloud_Analysis_CVPR_2019_paper.pdf) [\[Code\]](https://github.com/Yochengliu/Relation-Shape-CNN)
+
+DensePoint: Learning Densely Contextual Representation for Efficient Point Cloud Processing
+
+[\[Paper\]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_DensePoint_Learning_Densely_Contextual_Representation_for_Efficient_Point_Cloud_Processing_ICCV_2019_paper.pdf) [\[Code\]](https://github.com/Yochengliu/DensePoint)
+
+
+Geometric Back-projection Network for Point Cloud Classification
+
+[\[Paper\]](https://arxiv.org/abs/1911.12885) [\[Code\]](https://github.com/ShiQiu0419/GBNet)
+
+Point Transformer
+
+[\[Paper\]](https://arxiv.org/abs/2011.00931) [\[Code\]](https://github.com/engelnico/point-transformer)
+
+PointASNL: Robust Point Clouds Processing using Nonlocal Neural Networks with Adaptive Sampling
+
+[\[Paper\]](https://arxiv.org/abs/2003.00492) [\[Code\]](https://github.com/yanx27/PointASNL)
+
+A Closer Look at Local Aggregation Operators in Point Cloud Analysis
+
+[\[Paper\]](https://arxiv.org/abs/2007.01294) [\[Code\]](https://github.com/zeliu98/CloserLook3D)
+
+
+Learning Geometry-Disentangled Representation for Complementary Understanding of 3D Object Point Cloud
+
+[\[Paper\]](https://arxiv.org/abs/2012.10921) [\[Code\]](https://github.com/mutianxu/GDANet)
+
+MVT: Multi-view Vision Transformer for 3D Object Recognition
+
+[\[Paper\]](https://arxiv.org/abs/2110.13083) [\[Code\]](https://github.com/shanshuo/MVT)
+
+
+PCT: Point Cloud Transformer
+
+[\[Paper\]](https://arxiv.org/pdf/2012.09688.pdf) [\[Code\]](https://github.com/MenghaoGuo/PCT)
+
+PAConv: Position Adaptive Convolution with Dynamic Kernel Assembling on Point Clouds
+
+[\[Paper\]](https://arxiv.org/abs/2103.14635) [\[Code\]](https://github.com/CVMI-Lab/PAConv)
+
+
+MVTN: Multi-View Transformation Network for 3D Shape Recognition
+
+[\[Paper\]](https://arxiv.org/abs/2011.13244) [\[Code\]](https://github.com/ajhamdi/MVTN)
+
+
+Point Transformer
+
+[\[Paper\]](https://arxiv.org/abs/2012.09164) [\[Code\]](https://github.com/POSTECH-CVLab/point-transformer)
+
+
+Walk in the Cloud: Learning Curves for Point Clouds Shape Analysis
+
+[\[Paper\]](https://arxiv.org/abs/2105.01288) [\[Code\]](https://github.com/tiangexiang/CurveNet)
+
+
+POINTVIEW-GCN: 3D SHAPE CLASSIFICATION WITH MULTI-VIEW POINT CLOUDS
+
+[\[Paper\]](https://ieeexplore.ieee.org/document/9506426) [\[Code\]](https://github.com/SMohammadi89/PointView-GCN)
+
+
+REVISITING POINT CLOUD CLASSIFICATION WITH A SIMPLE AND EFFECTIVE BASELINE
+
+[\[Paper\]](http://proceedings.mlr.press/v139/goyal21a/goyal21a.pdf) [\[Code\]](https://github.com/princeton-vl/SimpleView)
+
+
+Multi-View 3D Shape Recognition via Correspondence-Aware Deep Learning
+
+[\[Paper\]](https://ieeexplore.ieee.org/iel7/83/4358840/09442303.pdf)
+
+PRA-Net: Point Relation-Aware Network for 3D Point Cloud Analysis
+
+[\[Paper\]](https://arxiv.org/abs/2112.04903) [\[Code\]](https://github.com/XiwuChen/PRA-Net)
+
+
+Dense-Resolution Network for Point Cloud Classification and Segmentation
+
+[\[Paper\]](https://openaccess.thecvf.com/content/WACV2021/papers/Qiu_Dense-Resolution_Network_for_Point_Cloud_Classification_and_Segmentation_WACV_2021_paper.pdf) [\[Code\]](https://github.com/ShiQiu0419/DRNet)
+
+
+APP-Net: Auxiliary-point-based Push and Pull Operations for Efficient Point Cloud Classification
+
+[\[Paper\]](https://arxiv.org/abs/2205.00847) [\[Code\]](https://github.com/MCG-NJU/APP-Net)
+
+Masked Autoencoders for Point Cloud Self-supervised Learning
+
+[\[Paper\]](https://arxiv.org/abs/2203.06604) [\[Code\]](https://github.com/Pang-Yatian/Point-MAE)
+
+PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies
+
+[\[Paper\]](https://arxiv.org/abs/2206.04670) [\[Code\]](https://github.com/guochengqian/PointNeXt)
+
+Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling
+
+[\[Paper\]](https://arxiv.org/abs/2111.14819) [\[Code\]](https://github.com/lulutang0608/Point-BERT)
+
+Surface Representation for Point Clouds
+
+[\[Paper\]](https://arxiv.org/abs/2205.05740) [\[Code\]](https://github.com/hancyran/RepSurf)
+
+RETHINKING NETWORK DESIGN AND LOCAL GEOMETRY IN POINT CLOUD: A SIMPLE RESIDUAL MLP FRAMEWORK
+
+[\[Paper\]](https://arxiv.org/abs/2202.07123) [\[Code\]](https://github.com/ma-xu/pointMLP-pytorch)
+
+Points to Patches: Enabling the Use of Self-Attention for 3D Shape Recognition
+
+[\[Paper\]](https://arxiv.org/abs/2204.03957) [\[Code\]](https://github.com/axeber01/point-tnt)
+
+
+# 3D Point Cloud Segmentation
+
 
 # Point Cloud Augmentation
 PointAugment: an Auto-Augmentation Framework for Point Cloud Classification
