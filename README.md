@@ -1,6 +1,9 @@
 # 3D Point Cloud Get Started
 
-This summary includes traditional algorithms and deep learning methods, which refers to [paper with code](https://paperswithcode.com/), [shenlanxueyuan](https://www.shenlanxueyuan.com/my/course/204), and [My blog](https://blog.csdn.net/taifengzikai) (in Chinese). 
+This summary includes traditional algorithms and deep learning methods.
+
+<!-- , which refers to [paper with code](https://paperswithcode.com/), [shenlanxueyuan](https://www.shenlanxueyuan.com/my/course/204), and [My blog](https://blog.csdn.net/taifengzikai) (in Chinese)
+-->
 
 <!-- I participated in the LIDAR object detection track of [DEECAMP 2020](https://deecamp.com/2020/). The added information refers to the baseline of this competition track.
  -->
